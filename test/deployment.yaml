@@ -1,0 +1,73 @@
+
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: aks-api
+  labels:
+    app: aks-api
+    version: v1
+
+spec:
+  replicas: 1
+
+  selector:
+    matchLabels:
+      app: aks-api
+      version: v1
+
+  template:
+    metadata:
+      labels:
+        app: aks-api
+        version: v1
+
+    spec:
+      containers:
+        - name: api
+          image: ACR_ENDPOINT/aks-api:latest
+          imagePullPolicy: Always
+
+          ports:
+            - name: http
+              containerPort: 8000
+              protocol: TCP
+
+          env:
+            - name: OPENAI_API_ENDPOINT
+              value: "FOUNDRY_ENDPOINT"
+
+            - name: OPENAI_DEPLOYMENT_NAME
+              value: "gpt-5-mini"
+
+            - name: OPENAI_API_VERSION
+              value: "2024-12-01-preview"
+
+          # Liveness Probe
+          livenessProbe:
+            httpGet:
+              path: /healthz
+              port: http
+            initialDelaySeconds: 10
+            periodSeconds: 30
+            timeoutSeconds: 5
+            failureThreshold: 3
+
+          # Readiness Probe
+          readinessProbe:
+            httpGet:
+              path: /readyz
+              port: http
+            initialDelaySeconds: 15
+            periodSeconds: 10
+            timeoutSeconds: 5
+            failureThreshold: 3
+
+          # Resource Requests and Limits
+          resources:
+            requests:
+              memory: "256Mi"
+              cpu: "250m"
+            limits:
+              memory: "512Mi"
+              cpu: "500m"
