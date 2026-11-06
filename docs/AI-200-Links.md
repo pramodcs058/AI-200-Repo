@@ -30,10 +30,3 @@ A consolidated collection of course materials, exam preparation resources, testi
 
 - [Microsoft Azure Documentation](https://learn.microsoft.com/en-us/azure/?product=popular) – Official Azure product documentation, concepts, and implementation guidance.
 
-## Additional Exam Preparation Resource
-
-- [Certyiq – AI-200 Practice Questions](https://certyiq.com/papers/microsoft/ai-200/1) – Third-party practice questions. Use these as supplementary material and verify technical details against official Microsoft documentation and the AI-200 study guide.
-
----
-
-*Tip: Use the official Microsoft study guide to prioritize exam objectives, complete the hands-on labs, and then use practice assessments to identify topics that need further revision.*
