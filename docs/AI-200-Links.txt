@@ -1,32 +1,27 @@
-Course URL: Azure AI Cloud Developer Associate
-https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-cloud-developer-associate/?practice-assessment-type=certification
+# Azure AI Cloud Developer Associate Resources
 
-Course Labs: Develop AI Cloud Solutions on Microsoft Azure
-https://microsoftlearning.github.io/mslearn-azure-ai/
+## Course
 
+- **Course:** [Azure AI Cloud Developer Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-cloud-developer-associate/?practice-assessment-type=certification)
+- **Course Labs:** [Develop AI Cloud Solutions on Microsoft Azure](https://microsoftlearning.github.io/mslearn-azure-ai/)
 
-ExamPrep Links:
+## Exam Preparation
 
-Exam AI-200: Microsoft Certified: Azure AI Cloud Developer Associate
-https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-cloud-developer-associate/?practice-assessment-type=certification
+- **Exam AI-200:** [Microsoft Certified: Azure AI Cloud Developer Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-cloud-developer-associate/?practice-assessment-type=certification)
+- **Study Guide:** [Study guide for Exam AI-200](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-200)
+- **AI-200 Labs:** [Microsoft Learn Azure AI Labs](https://microsoftlearning.github.io/mslearn-azure-ai/)
+- **Practice Assessment:** [AI-200 Practice Assessment](https://aiskillsnavigator.microsoft.com/en-us/credentials/cert-c8bca807654f6efc31cadb95ede6b0729abd1efb29cbb608f768b4de78edf92b)
 
-Study guide for Exam AI-200:
-https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-200
+## Exam Experience and Testing
 
-AI-200 Labs:
-https://microsoftlearning.github.io/mslearn-azure-ai/
+- **Exam Sandbox:** [Experience demo](https://go.microsoft.com/fwlink/?linkid=2226877)
+- **Exam Duration and Experience:** [Microsoft Credentials Support](https://learn.microsoft.com/en-us/credentials/support/exam-duration-exam-experience)
+- **Online Testing Guide:** [Pearson VUE Online Testing Guide (PDF)](https://www.pearsonvue.com/content/dam/VUE/vue/en/documents/onvue/pearson-vue-online-testing-guide-en.pdf)
 
-Practice Assessment:
-https://aiskillsnavigator.microsoft.com/en-us/credentials/cert-c8bca807654f6efc31cadb95ede6b0729abd1efb29cbb608f768b4de78edf92b
+## Reference Documentation
 
-Exam Sandbox - Experience demo:
-https://go.microsoft.com/fwlink/?linkid=2226877
+- **Azure Documentation:** [Microsoft Azure documentation](https://learn.microsoft.com/en-us/azure/?product=popular)
 
-Exam duration and exam experience:
-https://learn.microsoft.com/en-us/credentials/support/exam-duration-exam-experience
+## Exam Preparation Help
 
-Pearson Vue Online Testing Guide:
-https://www.pearsonvue.com/content/dam/VUE/vue/en/documents/onvue/pearson-vue-online-testing-guide-en.pdf
-
-Azure documentation:
-https://learn.microsoft.com/en-us/azure/?product=popular
+- **Certyiq:** [AI-200 Dumps](https://certyiq.com/papers/microsoft/ai-200/1)
